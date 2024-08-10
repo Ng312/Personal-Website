@@ -1,0 +1,89 @@
+.current:before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    background-color: #c9af8d;
+    width:50px;
+    height:5px;
+    margin-top:25px;
+}
+h1{
+    padding-left:32px;
+    font-family:‘Bodoni MT’;
+    font-style:italic;
+    color:#496989;
+}
+.container {
+    display:flex;
+    flex-direction :row;
+    margin-top:50px;
+}
+.textbox{
+    flex-grow:2;
+    font-family:'Trebuchet MS';
+    line-height:70px;
+    background-color:#CFC1BA;
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom:250px;
+    padding: 32px 0 0rem 64px;
+    filter: drop-shadow(12px 12px 0px #7492af);
+}
+
+.textbox h2{
+    font-size:50px;
+    margin-bottom:50px;
+}
+.textbox h3{
+    margin-top:0;
+    color:#72432C;
+    font-size:60px;
+    margin-bottom:0;
+}
+
+.program{
+    background-color:#A86C4F;
+    padding: 50px 60px;
+    font-family:'Trebuchet MS';
+    color:#dfddd9;
+    margin-right:70px;
+    font-size: 30px;
+    line-height:1.6;
+    filter: drop-shadow(12px 12px 0px #e4d690);
+}
+.container img{
+    flex-grow:1;
+    width:160px;
+    background-color:#AFA59C;
+    padding-top:40px;
+    margin-right:80px;
+    margin-bottom:30px;
+
+}
+.row2{
+    display:flex;
+    align-items:center;
+    margin-top: -200px;
+    margin-left:80px;
+}
+.go-to-aboutme {
+    margin-left:0;
+    font-size:24px;
+    font-family:'Trebuchet MS';
+    background-color:#496989;
+    border:none;
+    border-radius:40px;
+    padding:20px;
+    color:#f2f2f2;
+    text-decoration:none;
+}
+
+.go-to-aboutme:link,:visited{
+    color:#f2f2f2;
+    text-decoration:none;
+}
+.go-to-aboutme:hover{
+    color:#e2c46a;
+    font-weight:bold;
+
+}

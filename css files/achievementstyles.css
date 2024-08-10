@@ -1,0 +1,51 @@
+.current:before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    background-color: #c9af8d;
+    width:105px;
+    height:5px;
+    margin-top:25px;
+}
+h1,h2,li{
+    font-family:'Roboto Slab';
+    color:#496989;
+}
+h1{
+    text-align:center;
+}
+
+.container{
+    display:flex;
+}
+.column1,.column2{
+    font-size:20px;
+    flex:50%;
+    justify-content:center;
+    text-align:center;
+    padding:50px;
+    margin: 0 50px;
+}
+h2:before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    background-color: #c9af8d;
+    width:100px;
+    height:20px;
+    margin-top:25px;
+    margin-left:40px;
+}
+.column2 h2:before{
+    width:130px;
+    margin-left:60px;
+}
+ul{
+    list-style-type:square;
+}
+li{
+    color:#000000;
+    text-align:left;
+    padding-top:20px;
+
+}
