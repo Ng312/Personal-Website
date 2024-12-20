@@ -37,6 +37,7 @@ body{
     margin-left:70px;
     margin-right:70px;
     text-decoration:none;
+    gap:8px;
 }
 .to-page:hover{
     color:#000000;
