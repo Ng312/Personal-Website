@@ -33,7 +33,6 @@ body{
 .to-page {
   font-family: "Trebuchet MS";
   color: #afa59c;
-  background-color:aliceblue;
   font-size: 20px;
   margin: 0 50px;
   text-decoration: none;
@@ -46,7 +45,6 @@ body{
 .arrow{
     width:40px;
     padding:0 20px;
-    transform:translateY(30%);
     opacity:50%;
 }
 .arrow:hover{
